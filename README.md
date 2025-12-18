@@ -107,8 +107,6 @@ Two classification models were built and compared:
 * Handles complex feature interactions
 * Does not require feature scaling
 
-<img width="618" height="816" alt="Screenshot 2025-12-17 195930" src="https://github.com/user-attachments/assets/89a373c5-a853-419a-9b5a-541eda563074" />
-
 
 ##  Model Evaluation
 
