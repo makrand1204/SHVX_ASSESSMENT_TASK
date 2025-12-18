@@ -55,10 +55,12 @@ The project demonstrates an end-to-end data science workflow, including data cle
 * Engineered a new feature: 'Account_Age_Days'
 * Encoded categorical variables
 * Verified and handled missing values
+<img width="611" height="231" alt="Screenshot 2025-12-18 102915" src="https://github.com/user-attachments/assets/9d48f75c-1cd2-46bf-b31f-24ee2dc5c2b3" />
 
 
 
-### 2️⃣ Exploratory Data Analysis (EDA)
+
+### 2️ Exploratory Data Analysis (EDA)
 
 Performed EDA using 4 visualizations:
 
@@ -66,6 +68,11 @@ Performed EDA using 4 visualizations:
 2. Daily Time Spent vs Verification Status (Box Plot)
 3. Account Age vs Verification Status (Box Plot)
 4. Correlation Heatmap
+<img width="798" height="686" alt="Screenshot 2025-12-17 204009" src="https://github.com/user-attachments/assets/54df8058-2036-4b87-9cf1-6b7be2bb3fca" />
+<img width="789" height="684" alt="Screenshot 2025-12-17 204017" src="https://github.com/user-attachments/assets/bf9d3590-1b2e-44e4-b2a1-51bd03a87d6e" />
+<img width="795" height="686" alt="Screenshot 2025-12-17 204027" src="https://github.com/user-attachments/assets/3de200e2-57f6-49ac-9c95-36cbf69ad7fd" />
+<img width="1255" height="844" alt="Screenshot 2025-12-17 204038" src="https://github.com/user-attachments/assets/88db08cf-d60f-431a-83ab-2ab1ef8ea84b" />
+
 
 #### Key Insights:
 
@@ -76,7 +83,7 @@ Performed EDA using 4 visualizations:
 
 
 
-### 3️⃣ Feature Engineering
+### 3️ Feature Engineering
 
 * Created 'Account_Age_Days' from 'Date Joined'
 * One-hot encoded categorical features
@@ -103,7 +110,7 @@ Two classification models were built and compared:
 <img width="618" height="816" alt="Screenshot 2025-12-17 195930" src="https://github.com/user-attachments/assets/89a373c5-a853-419a-9b5a-541eda563074" />
 
 
-## 📊 Model Evaluation
+##  Model Evaluation
 
 Models were evaluated using two metrics:
 
@@ -116,8 +123,9 @@ Models were evaluated using two metrics:
 | ------------------- | -------- | -------- |
 | Logistic Regression | Moderate | Moderate |
 | Random Forest       | Higher   | Higher   |
+<img width="366" height="210" alt="Screenshot 2025-12-18 102953" src="https://github.com/user-attachments/assets/15f1736e-1558-431a-a4fc-9a23800f913a" />
 
-📌 Random Forest outperformed Logistic Regression, indicating that verification status depends on non-linear combinations of features.
+ Random Forest outperformed Logistic Regression, indicating that verification status depends on non-linear combinations of features.
 
 ---
 
@@ -154,6 +162,7 @@ This project highlights practical skills in data analysis, visualization, machin
 * Perform hyperparameter tuning
 * Add platform-specific analysis
 * Deploy as a web app
+  
 
 
 
